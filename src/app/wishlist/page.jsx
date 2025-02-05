@@ -126,6 +126,7 @@ export default function Wishlist() {
     setIsModalOpen(false);
     setSelectedProduct(null);
   }
+   
   if (data.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[400px] p-4">

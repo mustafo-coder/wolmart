@@ -56,13 +56,13 @@ export default function OnePage() {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="flex flex-col md:flex-row items-center justify-center gap-6 p-6 md:h-[400px]"
+      className="flex flex-col md:flex-row items-center justify-center gap-6 p-6 md:h-[400px] xl:px-40"
     >
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="flex-1 flex flex-row items-center justify-between p-6 sm:p-10 bg-gradient-to-b from-blue-900 to-blue-300 rounded-lg shadow-lg h-full w-full"
+        className="flex-1 flex flex-row items-center justify-between p-6 sm:p-10 bg-gradient-to-b from-slate-900 to-blue-300 rounded-lg shadow-lg h-full w-full"
       >
         <div className="text-white flex flex-col">
           <p className="text-2xl xl:text-6xl font-bold">Mage Sale</p>

@@ -10,6 +10,8 @@ import sterling from "@/app/images/sterling.png"
 import skySuite from "@/app/images/sky-suite.png"
 import sass from "@/app/images/sass.png"
 import Image from 'next/image';
+import { Autoplay } from 'swiper/modules';
+
 
 const logos = [red, ns8, nodejs, greenGrass, elegantAuto, sterling, skySuite, sass];
 const duplicatedLogos = [ ...logos, ...logos]
@@ -18,9 +20,14 @@ export default function Partners() {
   return (
     <div className="w-full py-6 ps-6 flex justify-between container mx-auto">
       <Swiper
+      modules={[Autoplay]}
         // spaceBetween={30}
         slidesPerView={3}
         loop={true}
+        autoplay={{
+          delay: 7000,
+          disableOnInteraction: false,
+      }}
         breakpoints={{
           640: { slidesPerView: 3 },
           768: { slidesPerView: 5 },

@@ -1,7 +1,10 @@
+import Checkout from '@/components/checkout';
 import React from 'react';
 
 const HomePage = () => {
-	return <div></div>;
+	return <>
+		<Checkout/ >
+	</>;
 };
 
 export default HomePage;

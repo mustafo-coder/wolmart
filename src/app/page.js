@@ -1,7 +1,12 @@
-import React from 'react';
+// import ProductTabs from "./components/ product-tabs";
+// import ProductPage from "./components/product-page";
 
-const HomePage = () => {
-	return <div></div>;
-};
+import Product from "./product";
 
-export default HomePage;
+export default function Home() {
+  return (
+    <>
+      <Product />
+    </>
+  );
+}
